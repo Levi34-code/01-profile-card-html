@@ -1,0 +1,41 @@
+/* Add your styles here */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif; /* Use Segoe UI if available, otherwise Arial or sans-serif */
+  background: #222222;                        /* Set the page background to a dark grey */
+  color: #e0e0e0;                             /* Set the default text color to light grey */
+  margin: 0;                                  /* Remove default margin */
+  padding: 0;                                 /* Remove default padding */
+  text-align: center;                         /* Center all text in the body */
+}
+
+.profile-card {
+  background: linear-gradient(135deg, #292929 80%, #383838 100%); /* Add a subtle gradient for shading */
+  border: 1px solid #444;                                        /* Add a dark border around the card */
+  border-radius: 10px;                                            /* Slightly round the corners */
+  max-width: 450px;                                               /* Limit the card's width */
+  margin: 3rem auto;                                              /* Center the card horizontally with margin on top/bottom */
+  padding: 2rem 1.5rem;                                           /* Add space inside the card */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);                         /* Add a soft shadow for depth */
+}
+
+h1 {
+  font-size: 2.5rem;         /* Make the main heading large */
+  text-align: center;        /* Center the heading text */
+  margin-top: 0;             /* Remove top margin */
+}
+
+h2 {
+  font-size: 1.5rem;         /* Make the subheading larger */
+  text-align: center;        /* Center the subheading text */
+  margin-top: 1rem;          /* Add space above the subheading */
+  margin-bottom: 1rem;       /* Add space below the subheading */
+}
+
+a {
+  color: #89cff0; /* Baby blue */
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: underline;
+}
