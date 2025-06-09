@@ -39,3 +39,26 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+/* Styles for the Back button */
+.back-btn {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: #444;
+  border: none;
+  border-radius: 5px;
+  color: #e0e0e0;
+  cursor: pointer;
+}
+
+.back-btn:hover {
+  background: #666;
+}
+
+/* Hidden prank message */
+.prank-message {
+  display: none;
+  font-size: 0.8rem;
+  color: red;
+  margin-top: 0.5rem;
+}
